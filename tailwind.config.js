@@ -3,6 +3,7 @@ const withMT = require("@material-tailwind/react/utils/withMT");
 module.exports = withMT({
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
+
     container: {
       center: true,
       padding: {
@@ -17,7 +18,10 @@ module.exports = withMT({
       colors: {
         'mebami-blue': '#6C63FF', 
 
-      }
+      }, 
+      fontFamily: {
+        'logo': ['Sacramento', 'cursive'],
+      },
     },
   },
   plugins: [],
